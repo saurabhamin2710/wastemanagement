@@ -1,0 +1,23 @@
+.card {
+  width: 600px;
+  padding: 20px;
+  color: black;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.image {
+  width: 600px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  transition: background-color 0.3s;
+}
+
+.image.hovered {
+  background-color: rgba(0, 0, 2, 2.5);
+}

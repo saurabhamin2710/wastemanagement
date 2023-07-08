@@ -19,6 +19,13 @@
   color: white;
   text-align: center;
 }
+.hgg {
+  width: 1400px;
+  height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .faq-container {
   display: flex;
   flex-direction: column;

@@ -23,7 +23,7 @@ function Contact() {
 
     return (
         <div style={{ backgroundColor: "lightblack", margin: "30px", color: "white" }}>
-            <h1 className='tle' style={{ textAlign: "center", fontSize: "40px" }}>Contact Us</h1>
+            <h1 className='tle' style={{ textAlign: "center" }}>Contact Us</h1>
             <div className="contact">
                 <div className="column address">
                     <h2 style={{ fontSize: "xx-large" }}>Contact Details</h2><br />

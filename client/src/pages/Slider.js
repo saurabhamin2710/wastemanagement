@@ -2,9 +2,12 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './Slider.css';
+import { Link } from 'react-router-dom';
 import image1 from '../Photos/1.jpg';
 import image2 from '../Photos/2.jpg';
 import image3 from '../Photos/3.jpeg';
+import image4 from '../Photos/bio1.jpg'
+import Card from './Card';
 const Slider = () => {
   const quotes = [
     {
@@ -72,6 +75,11 @@ const Slider = () => {
           <div className="faq-column faq-answer-column" style={{ marginTop: "20px" }}>
             Bio waste recycling offers several benefits, including reducing landfill waste, producing organic fertilizers, generating renewable energy through anaerobic digestion, and reducing greenhouse gas emissions. It also helps conserve resources and promotes a circular economy.</div>
         </div>
+      </div>
+      <h1 className='srvcc'>Our Service </h1>
+      <div className='crd'>
+        <Link to="/services">
+          <Card title="Bio Medical Waste Management" image={image4} /></Link>
       </div>
     </div>
   );

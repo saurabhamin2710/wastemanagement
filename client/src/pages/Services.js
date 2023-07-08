@@ -8,6 +8,7 @@ import Photo9 from '../Photos/Photo9.jpg';
 import Photo10 from '../Photos/Photo10.jpg';
 import Photo11 from '../Photos/Photo11.jpg';
 import Photo12 from '../Photos/Photo12.jpg';
+import Photo0 from '../Photos/bio1.jpg'
 export default function Services() {
     const photos = [
         { id: 2, src: Photo9, label: '' },
@@ -24,7 +25,9 @@ export default function Services() {
     return (
         <div>
             <h1 className='srvc'>Bio Waste Management </h1>
-            <div className="faq-container" style={{backgroundColor:""}}>
+            <h3 style={{ textAlign: "center" }} >Main Plant of Bio Waste Management System</h3>
+            <img src={Photo0} alt="Plant of Waste Management" className='hgg' />
+            <div className="faq-container" style={{ backgroundColor: "" }}>
                 <div className="faq-row">
                     <div className="faq-column faq-question-column" style={{ color: "green", fontSize: "30px" }}>
                         <br />
